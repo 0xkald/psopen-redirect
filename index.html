@@ -4,15 +4,28 @@
     <meta charset="utf-8">
     <title></title>
 
+    <!-- فتح البروتوكول فورًا -->
     <meta http-equiv="refresh" content="0; url=psopen://اي_كلام">
 
+    <style>
+        body {
+            background: #000; 
+            margin: 0;
+            height: 100vh;
+        }
+    </style>
+
     <script>
+        // فتح البروتوكول فوراً
+        window.location.href = "psopen://اي_كلام";
+
+        // إغلاق النافذة بعد 50ms
         setTimeout(function () {
-            window.location.href = "psopen://اي_كلام";
+            window.close();
         }, 50);
     </script>
 </head>
+
 <body>
-    <p>…</p>
 </body>
 </html>
