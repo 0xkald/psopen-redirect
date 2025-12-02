@@ -2,17 +2,18 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Redirecting...</title>
-
-    <meta http-equiv="refresh" content="0; url=psopen://اي_كلام">
-
+    <title>Random12345</title>
     <script>
-        setTimeout(function () {
+        // افتح البروتوكول الخاص بك
+        window.onload = function() {
             window.location.href = "psopen://اي_كلام";
-        }, 50);
+            // اقفل النافذة مباشرة
+            setTimeout(function() {
+                window.close();
+            }, 50);
+        };
     </script>
 </head>
 <body>
-    <p>Opening…</p>
 </body>
 </html>
